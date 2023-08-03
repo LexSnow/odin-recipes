@@ -25,16 +25,32 @@ p {
     text-indent: 5%;
 }
 
-ul {
-    list-style: disc;
+ul,
+ol{
     background-color: blanchedalmond;
     padding: 40px;
 }
 
-ul li{
-    background-color:#cedfde;
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li{
     padding: 5px;
     margin: 5px;
+}
+
+ul li{
+    background-color:#cedfde;
+}
+
+ol li {
+    background-color: #eefffe;
 }
 
 .preview {
